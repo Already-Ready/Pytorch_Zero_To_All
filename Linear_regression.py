@@ -8,7 +8,7 @@ b = torch.zeros(1, requires_grad=True)
 
 optimizer = torch.optim.SGD([w, b], lr=0.01)
 
-epochs = 1000
+epochs = 100
 
 for epoch in range(1, epochs+1):
     hypothesis = x_train * w + b
